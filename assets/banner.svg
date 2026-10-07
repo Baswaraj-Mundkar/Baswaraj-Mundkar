@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Baswaraj Mundkar — Cloud, Web and IoT">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="55%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="50%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#00e5ff"/>
+      <animate attributeName="x1" values="0;1;0" dur="7s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0;1" dur="7s" repeatCount="indefinite"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity=".055"/>
+    </pattern>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="1280" height="360" rx="22"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <rect width="1280" height="360" fill="url(#grid)"/>
+
+    <circle cx="1060" cy="72" r="150" fill="#00e5ff" opacity=".055">
+      <animate attributeName="r" values="140;175;140" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1060" cy="72" r="72" fill="none" stroke="#00e5ff" stroke-opacity=".12">
+      <animate attributeName="r" values="65;90;65" dur="4s" repeatCount="indefinite"/>
+    </circle>
+
+    <path d="M0 294 C180 245 250 315 430 275 S720 230 870 272 S1110 320 1280 250"
+          fill="none" stroke="url(#accent)" stroke-width="2.5" opacity=".75" filter="url(#glow)">
+      <animate attributeName="stroke-dasharray" values="20 16;90 22;20 16" dur="5s" repeatCount="indefinite"/>
+    </path>
+
+    <path d="M0 310 C180 260 260 330 440 290 S730 245 880 286 S1110 334 1280 265"
+          fill="none" stroke="#ffffff" stroke-opacity=".09" stroke-width="1"/>
+
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="82" y="116" fill="#8b93a7" font-size="16" letter-spacing="4">BUILDING • LEARNING • SHIPPING</text>
+      <text x="78" y="180" fill="#ffffff" font-size="58" font-weight="700" letter-spacing="-2">BASWARAJ MUNDKAR</text>
+      <text x="82" y="220" fill="#b8c1d9" font-size="21">Cloud Computing  ·  Web Development  ·  IoT</text>
+
+      <rect x="82" y="252" width="10" height="10" rx="2" fill="#00e5ff">
+        <animate attributeName="opacity" values=".25;1;.25" dur="1.6s" repeatCount="indefinite"/>
+      </rect>
+      <text x="104" y="262" fill="#7fefff" font-size="14" letter-spacing="2">PCCOER • PUNE, INDIA</text>
+
+      <text x="1090" y="318" fill="#68738c" font-size="12" text-anchor="middle" letter-spacing="3">APEX PROFILE / 01</text>
+    </g>
+
+    <g>
+      <circle cx="1080" cy="92" r="5" fill="#00e5ff" filter="url(#glow)">
+        <animate attributeName="cx" values="1035;1115;1035" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="92;58;92" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1160" cy="142" r="3" fill="#7c5cff">
+        <animate attributeName="cy" values="142;110;142" dur="3s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <rect x="-20" y="0" width="4" height="360" fill="#ffffff" opacity=".12">
+      <animate attributeName="x" from="-20" to="1300" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="1" y="1" width="1278" height="358" rx="21" fill="none" stroke="#ffffff" stroke-opacity=".12"/>
+  </g>
+</svg>
