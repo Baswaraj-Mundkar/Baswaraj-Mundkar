@@ -50,8 +50,6 @@
         <animate attributeName="opacity" values=".25;1;.25" dur="1.6s" repeatCount="indefinite"/>
       </rect>
       <text x="104" y="262" fill="#7fefff" font-size="14" letter-spacing="2">PCCOER • PUNE, INDIA</text>
-
-      <text x="1090" y="318" fill="#68738c" font-size="12" text-anchor="middle" letter-spacing="3">APEX PROFILE / 01</text>
     </g>
 
     <g>
