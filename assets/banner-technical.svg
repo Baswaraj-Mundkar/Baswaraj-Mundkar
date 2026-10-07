@@ -107,6 +107,45 @@
       </g>
     </g>
 
+    <!-- subtle pixel-art engineering setup -->
+    <g transform="translate(1080 228)" shape-rendering="crispEdges" opacity=".9">
+      <!-- pixel workstation / terminal -->
+      <rect x="0" y="0" width="72" height="46" fill="#0b1119" stroke="#49d7ff" stroke-width="1"/>
+      <rect x="7" y="7" width="58" height="28" fill="#071018"/>
+      <rect x="12" y="12" width="24" height="3" fill="#49d7ff"/>
+      <rect x="12" y="19" width="40" height="2" fill="#60768d"/>
+      <rect x="12" y="25" width="30" height="2" fill="#60768d"/>
+      <rect x="31" y="38" width="10" height="5" fill="#718198"/>
+      <rect x="24" y="43" width="24" height="3" fill="#718198"/>
+
+      <!-- pixel IoT board -->
+      <rect x="96" y="8" width="58" height="38" fill="#0b1119" stroke="#49d7ff" stroke-width="1"/>
+      <rect x="108" y="16" width="24" height="18" fill="#13202b"/>
+      <rect x="114" y="21" width="12" height="8" fill="#49d7ff" opacity=".7"/>
+      <rect x="101" y="12" width="4" height="4" fill="#718198"/>
+      <rect x="139" y="12" width="4" height="4" fill="#718198"/>
+      <rect x="101" y="37" width="4" height="4" fill="#718198"/>
+      <rect x="139" y="37" width="4" height="4" fill="#718198"/>
+
+      <!-- sensor signal -->
+      <path d="M154 27H176V18H188" fill="none" stroke="#49d7ff" stroke-width="1"/>
+      <circle cx="190" cy="18" r="3" fill="#49d7ff">
+        <animate attributeName="opacity" values=".2;1;.2" dur="1.4s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- pixel data packets -->
+      <g fill="#49d7ff">
+        <rect x="164" y="54" width="4" height="4">
+          <animate attributeName="x" values="154;188;154" dur="3s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="174" y="54" width="4" height="4">
+          <animate attributeName="x" values="188;154;188" dur="3s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+
+      <text x="0" y="67" fill="#61748a" font-family="monospace" font-size="8" letter-spacing="1">EDGE DEVICE / TERMINAL / SENSOR</text>
+    </g>
+
     <!-- scanning line -->
     <rect x="900" y="70" width="1" height="235" fill="#49d7ff" opacity=".35">
       <animate attributeName="y" values="70;305;70" dur="5s" repeatCount="indefinite"/>
