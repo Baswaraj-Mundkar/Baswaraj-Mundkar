@@ -32,13 +32,6 @@ Public repo exists, but the repository README is the default Next.js starter tem
 
 Verified repo evidence: TypeScript, Next.js, React
 
-## Active engineering signals
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Baswaraj-Mundkar&show_icons=true&hide_border=true&theme=github_dark&title_color=D89B4A&icon_color=D89B4A&text_color=E6EDF3&bg_color=0D1117" alt="GitHub stats" width="420">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Baswaraj-Mundkar&layout=compact&hide_border=true&theme=github_dark&title_color=D89B4A&icon_color=D89B4A&text_color=E6EDF3&bg_color=0D1117&langs_count=6" alt="Top languages" width="420">
-</div>
-
 ## Connect
 
 <div align="center">
