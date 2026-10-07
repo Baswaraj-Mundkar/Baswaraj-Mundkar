@@ -32,21 +32,6 @@ Public repo exists, but the repository README is the default Next.js starter tem
 
 Verified repo evidence: TypeScript, Next.js, React
 
-### 03 — NIRMAN-X
-PROJECT_DESCRIPTION: TODO — not verified from repository
-
-<!-- TODO: verify repo URL and description -->
-
-### 04 — AgroWatch E-Commander
-PROJECT_DESCRIPTION: TODO — not verified from repository
-
-<!-- TODO: verify repo URL and description -->
-
-### 05 — College Departmental Grievance Redressal System
-PROJECT_DESCRIPTION: TODO — not verified from repository
-
-<!-- TODO: verify repo URL and description -->
-
 ## Active engineering signals
 
 <div align="center">
