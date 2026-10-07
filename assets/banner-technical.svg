@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="Baswaraj Mundkar — Cloud Computing, Web Development and IoT">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070a0f"/>
+      <stop offset="1" stop-color="#0b1119"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8ea0b8" stroke-opacity=".075"/>
+    </pattern>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#49d7ff"/>
+      <stop offset="1" stop-color="#49d7ff" stop-opacity=".05"/>
+    </linearGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect x="0" y="0" width="1280" height="360" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="360" fill="url(#bg)"/>
+    <rect width="1280" height="360" fill="url(#grid)"/>
+
+    <!-- engineering frame -->
+    <path d="M34 34H1246V326H34Z" fill="none" stroke="#a9b7ca" stroke-opacity=".16"/>
+    <path d="M34 68H1246" stroke="#a9b7ca" stroke-opacity=".10"/>
+    <path d="M900 34V326" stroke="#a9b7ca" stroke-opacity=".12"/>
+
+    <!-- top instrumentation -->
+    <g font-family="monospace" font-size="10" fill="#708096" letter-spacing="1.5">
+      <text x="55" y="55">SYSTEM / PROFILE_INTERFACE</text>
+      <text x="1080" y="55">STATUS: ONLINE</text>
+      <circle cx="1064" cy="51" r="3" fill="#49d7ff">
+        <animate attributeName="opacity" values=".25;1;.25" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text x="55" y="316">PCCOER / PUNE / INDIA</text>
+      <text x="1080" y="316">v01.26</text>
+    </g>
+
+    <!-- left content -->
+    <g font-family="Arial, Helvetica, sans-serif">
+      <text x="72" y="112" fill="#49d7ff" font-family="monospace" font-size="13" letter-spacing="3">CLOUD // WEB // IOT</text>
+      <text x="70" y="166" fill="#f2f6fb" font-size="52" font-weight="700" letter-spacing="-2">BASWARAJ</text>
+      <text x="70" y="215" fill="#f2f6fb" font-size="52" font-weight="700" letter-spacing="-2">MUNDKAR</text>
+      <text x="73" y="247" fill="#9aa9bc" font-size="17">BCA • Cloud Computing</text>
+
+      <!-- tiny code/data panel -->
+      <rect x="70" y="270" width="360" height="25" fill="#0d151f" stroke="#718198" stroke-opacity=".22"/>
+      <text x="84" y="287" fill="#71879d" font-family="monospace" font-size="10">BUILD → DEPLOY → CONNECT → ITERATE</text>
+    </g>
+
+    <!-- technical architecture panel -->
+    <g transform="translate(930 88)">
+      <!-- vertical labels -->
+      <g font-family="monospace" font-size="9" fill="#64758b" letter-spacing="1">
+        <text x="0" y="12">ARCHITECTURE</text>
+        <text x="0" y="202">EDGE</text>
+        <text x="152" y="202">CLOUD</text>
+        <text x="304" y="202">WEB</text>
+      </g>
+
+      <!-- traces -->
+      <g fill="none" stroke="url(#trace)" stroke-width="1.5">
+        <path d="M35 48V88H165V118"/>
+        <path d="M165 48V118"/>
+        <path d="M295 48V88H165"/>
+        <path d="M165 148V184H35"/>
+        <path d="M165 148V184H295"/>
+      </g>
+
+      <!-- nodes -->
+      <g fill="#0b1119" stroke="#49d7ff" stroke-width="1.5">
+        <rect x="10" y="28" width="50" height="40" rx="4"/>
+        <rect x="140" y="28" width="50" height="40" rx="4"/>
+        <rect x="270" y="28" width="50" height="40" rx="4"/>
+        <rect x="140" y="118" width="50" height="40" rx="4"/>
+        <rect x="10" y="178" width="50" height="40" rx="4"/>
+        <rect x="270" y="178" width="50" height="40" rx="4"/>
+      </g>
+
+      <g font-family="monospace" font-size="9" text-anchor="middle">
+        <text x="35" y="51" fill="#b8c7d9">I/O</text>
+        <text x="165" y="51" fill="#b8c7d9">API</text>
+        <text x="295" y="51" fill="#b8c7d9">WEB</text>
+        <text x="165" y="142" fill="#49d7ff">CLOUD</text>
+        <text x="35" y="202" fill="#b8c7d9">EDGE</text>
+        <text x="295" y="202" fill="#b8c7d9">DATA</text>
+      </g>
+
+      <!-- animated signal -->
+      <circle cx="35" cy="48" r="3" fill="#49d7ff" filter="url(#softGlow)">
+        <animate attributeName="cx" values="35;165;295;165;35" dur="6s" repeatCount="indefinite"/>
+        <animate attributeName="cy" values="48;118;48;118;48" dur="6s" repeatCount="indefinite"/>
+      </circle>
+
+      <!-- telemetry bars -->
+      <g font-family="monospace" font-size="8" fill="#61748a">
+        <text x="0" y="245">NET</text>
+        <text x="0" y="259">I/O</text>
+        <text x="0" y="273">SYNC</text>
+      </g>
+      <g stroke="#49d7ff" stroke-opacity=".5">
+        <path d="M30 243H125"><animate attributeName="x2" values="70;125;92;115;70" dur="4s" repeatCount="indefinite"/></path>
+        <path d="M30 257H125"><animate attributeName="x2" values="115;82;125;96;115" dur="3.5s" repeatCount="indefinite"/></path>
+        <path d="M30 271H125"><animate attributeName="x2" values="90;120;75;110;90" dur="4.5s" repeatCount="indefinite"/></path>
+      </g>
+    </g>
+
+    <!-- scanning line -->
+    <rect x="900" y="70" width="1" height="235" fill="#49d7ff" opacity=".35">
+      <animate attributeName="y" values="70;305;70" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- outer technical marks -->
+    <g stroke="#718198" stroke-opacity=".3">
+      <path d="M24 80H34M24 160H34M24 240H34"/>
+      <path d="M1246 80H1256M1246 160H1256M1246 240H1256"/>
+      <path d="M120 24V34M240 24V34M360 24V34"/>
+    </g>
+
+    <rect x="1" y="1" width="1278" height="358" rx="18" fill="none" stroke="#d5deea" stroke-opacity=".14"/>
+  </g>
+</svg>
