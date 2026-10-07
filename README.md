@@ -5,12 +5,15 @@
 </div>
 
 
-## GitHub Activity
+## GitHub
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Baswaraj-Mundkar&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&hide_title=true&bg_color=11100e&text_color=f3eee5&icon_color=d89b4a&ring_color=d89b4a&cache_seconds=86400" alt="GitHub Stats">
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Baswaraj-Mundkar&layout=compact&hide_border=true&hide_title=true&langs_count=6&bg_color=11100e&text_color=f3eee5&title_color=d89b4a&icon_color=d89b4a&cache_seconds=86400" alt="Top Languages">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Baswaraj-Mundkar&layout=compact&hide_border=true&hide_title=true&langs_count=6&bg_color=11100e&text_color=f3eee5&title_color=d89b4a&icon_color=d89b4a&cache_seconds=86400" alt="Top Languages">
+
+<br>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Baswaraj-Mundkar&hide_border=true&background=11100e&ring=d89b4a&fire=d89b4a&currStreakLabel=d89b4a&sideLabels=f3eee5&dates=82786b&currStreakNum=f3eee5&sideNums=f3eee5" alt="GitHub Contribution Streak">
 
 </div>
 
