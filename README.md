@@ -1,58 +1,71 @@
 <div align="center">
-
-<img src="./assets/banner-minimal.svg" alt="Baswaraj Mundkar — Cloud Computing, Web Development and IoT" width="100%">
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+    <img alt="Baswaraj Mundkar engineering console" src="assets/hero-dark.svg" width="100%">
+  </picture>
 </div>
 
+## Profile
 
-## About
+BCA student at PCCOER, Pune, focused on cloud computing, software development, and IoT. I learn by building systems that combine practical code, infrastructure thinking, and hardware experimentation.
 
-BCA student specializing in **Cloud Computing** at PCCOER, Pune.
+- Location: Pune, Maharashtra, India
+- Current focus: Cloud • Python • Web • IoT • DevOps
+- Study path: BCA — Cloud Computing, PCCOER, Pune
 
-I build practical projects across **cloud, web development and IoT**, with a focus on learning by building, deploying and iterating.
+## Core stack
 
-**Currently exploring:** Cloud • DevOps • Python • Web Development • IoT
+Python • HTML • CSS • JavaScript • C • C++ • Java • SQL / MySQL • AWS • Azure • Firebase • Git • GitHub • Arduino / IoT
 
+## Project archive
 
-## Tech Stack
+### 01 — DrishtiX
+[GitHub repo](https://github.com/Baswaraj-Mundkar/DrishtiX)
+
+Verified public repo description: “Social Media & Fake News Awareness Platform.” The repository README describes it as a platform for misinformation awareness, crowdsourced reporting, and verification workflows. Technologies evidenced in the public repo and README: HTML, CSS, JavaScript, Leaflet.
+
+### 02 — Bhoomifi
+[GitHub repo](https://github.com/Baswaraj-Mundkar/Bhoomifi)
+
+Public repo exists, but the repository README is the default Next.js starter template and does not provide a product-specific description. The project is retained as a real public repo reference rather than a claimed product profile.
+
+Verified repo evidence: TypeScript, Next.js, React
+
+### 03 — NIRMAN-X
+PROJECT_DESCRIPTION: TODO — not verified from repository
+
+<!-- TODO: verify repo URL and description -->
+
+### 04 — AgroWatch E-Commander
+PROJECT_DESCRIPTION: TODO — not verified from repository
+
+<!-- TODO: verify repo URL and description -->
+
+### 05 — College Departmental Grievance Redressal System
+PROJECT_DESCRIPTION: TODO — not verified from repository
+
+<!-- TODO: verify repo URL and description -->
+
+## Active engineering signals
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,html,css,js,c,cpp,java,mysql,aws,azure,firebase,git,github,arduino" alt="Tech Stack">
-
+  <img src="https://github-readme-stats.vercel.app/api?username=Baswaraj-Mundkar&show_icons=true&hide_border=true&theme=github_dark&title_color=D89B4A&icon_color=D89B4A&text_color=E6EDF3&bg_color=0D1117" alt="GitHub stats" width="420">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Baswaraj-Mundkar&layout=compact&hide_border=true&theme=github_dark&title_color=D89B4A&icon_color=D89B4A&text_color=E6EDF3&bg_color=0D1117&langs_count=6" alt="Top languages" width="420">
 </div>
-
-
-## GitHub
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Baswaraj-Mundkar&layout=compact&hide_border=true&hide_title=true&langs_count=6&bg_color=11100e&text_color=f3eee5&title_color=d89b4a&icon_color=d89b4a&cache_seconds=86400" alt="Top Languages">
-
-<br>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Baswaraj-Mundkar&hide_border=true&background=11100e&ring=d89b4a&fire=d89b4a&currStreakLabel=d89b4a&sideLabels=f3eee5&dates=82786b&currStreakNum=f3eee5&sideNums=f3eee5" alt="GitHub Contribution Streak">
-
-</div>
-
 
 ## Connect
 
 <div align="center">
-
-<a href="https://github.com/Baswaraj-Mundkar">
-<img src="https://img.shields.io/badge/GitHub-11100e?style=for-the-badge&logo=github&logoColor=f3eee5" alt="GitHub">
-</a>
-&nbsp;
-<a href="https://www.linkedin.com/in/baswaraj-mundkar-796ba4405/">
-<img src="https://img.shields.io/badge/LinkedIn-11100e?style=for-the-badge&logo=linkedin&logoColor=f3eee5" alt="LinkedIn">
-</a>
-
+  <a href="https://github.com/Baswaraj-Mundkar">
+    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=E6EDF3" alt="GitHub profile" width="160" height="42">
+  </a>
+  &nbsp;
+  <a href="https://www.linkedin.com/in/baswaraj-mundkar-796ba4405/">
+    <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=E6EDF3" alt="LinkedIn profile" width="160" height="42">
+  </a>
 </div>
 
-
 <div align="center">
-
-<sub>BUILD • LEARN • SHIP</sub>
-
+  <sub>BUILD • LEARN • SHIP</sub>
 </div>

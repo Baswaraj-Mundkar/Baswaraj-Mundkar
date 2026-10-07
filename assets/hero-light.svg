@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Baswaraj Mundkar engineering dashboard</title>
+  <desc id="desc">Light-themed console panel featuring a profile summary, core technical domains, and system labels.</desc>
+  <defs>
+    <linearGradient id="panelGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#F6F8FA"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#D0D7DE" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="320" fill="#F6F8FA"/>
+  <rect x="18" y="18" width="1164" height="284" rx="18" fill="url(#panelGlow)" stroke="#D0D7DE"/>
+  <rect x="18" y="18" width="1164" height="284" rx="18" fill="url(#grid)" opacity="0.5"/>
+
+  <g fill="#1F2328" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="58" y="86" font-size="18" letter-spacing="3.5" fill="#57606A">BASWARAJ MUNDKAR</text>
+    <text x="58" y="132" font-size="36" font-weight="700">CLOUD • SOFTWARE • IOT</text>
+    <text x="58" y="172" font-size="18" fill="#57606A">Student engineer building practical systems around cloud, web, and embedded learning.</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+    <text x="58" y="228" font-size="13" fill="#57606A">STATUS</text>
+    <circle cx="112" cy="224" r="5" fill="#1F9D55"/>
+    <text x="126" y="229" font-size="13" fill="#1F2328">ACTIVE • LEARNING</text>
+
+    <text x="58" y="256" font-size="12" fill="#57606A">CORE_DOMAINS</text>
+    <text x="185" y="256" font-size="12" fill="#B76F1D">CLOUD</text>
+    <text x="255" y="256" font-size="12" fill="#1A8A9B">WEB</text>
+    <text x="315" y="256" font-size="12" fill="#B76F1D">IOT</text>
+    <text x="375" y="256" font-size="12" fill="#1A8A9B">PYTHON</text>
+    <text x="465" y="256" font-size="12" fill="#B76F1D">DEVOPS</text>
+  </g>
+
+  <g stroke="#D0D7DE" fill="none">
+    <rect x="760" y="60" width="365" height="150" rx="12"/>
+    <rect x="760" y="220" width="365" height="42" rx="10"/>
+    <path d="M800 110 H980" stroke="#B76F1D" stroke-width="2" opacity="0.9"/>
+    <path d="M800 145 H934" stroke="#1A8A9B" stroke-width="2" opacity="0.9"/>
+    <path d="M800 180 H905" stroke="#B76F1D" stroke-width="2" opacity="0.8"/>
+    <path d="M800 95 L840 120 L880 100 L920 128 L960 88 L980 104" stroke="#B76F1D" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M785 247 H1095" stroke="#1A8A9B" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" fill="#57606A" font-size="11">
+    <text x="781" y="85">SYSTEM_SCAN</text>
+    <text x="781" y="235">LOCATION</text>
+    <text x="960" y="235">PUNE, MH, INDIA</text>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" fill="#1F2328" font-size="13">
+    <text x="790" y="110">[01] CLOUD</text>
+    <text x="790" y="145">[02] WEB</text>
+    <text x="790" y="180">[03] IOT</text>
+  </g>
+</svg>
