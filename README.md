@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img alt="Baswaraj Mundkar — Cloud, Software and IoT" src="assets/hero-dark.svg" width="100%">
+    <img alt="Baswaraj Mundkar — Web Development and Cloud Computing" src="assets/hero-dark.svg" width="100%">
   </picture>
 </div>
 
@@ -13,54 +13,51 @@
 
 ## About
 
-I'm a BCA student specializing in Cloud Computing at Pimpri Chinchwad College of Engineering & Research (PCCOER), Pune (2024–2027).
+I'm a BCA student specializing in **Cloud Computing** at Pimpri Chinchwad College of Engineering & Research (PCCOER), Pune (2024–2027).
 
-I work on practical software and IoT projects, with a current focus on Python, web fundamentals, ESP32-based systems, and cloud-connected applications. I prefer learning by building, testing, and documenting working prototypes.
+I'm focused on building my skills in **web development and cloud technologies**—from creating web interfaces and backend-connected applications to understanding cloud services, deployment, and infrastructure.
 
 - **Based in:** Pune, Maharashtra, India
-- **Current focus:** Python · Cloud fundamentals · Web development · IoT
-- **Interested in:** Cloud / DevOps engineering, software development, and embedded systems
+- **Primary interests:** Web Development · Cloud Computing · Software Development
+- **Currently strengthening:** HTML, CSS, JavaScript, Python, Git, and cloud fundamentals
 
 ## Technical skills
 
-| Area | Technologies | Current focus |
-|---|---|---|
-| Programming | Python, JavaScript, Java, C, C++ | Python and programming fundamentals |
-| Web | HTML, CSS, JavaScript | Building and improving web interfaces |
-| IoT & embedded | ESP32, Arduino, sensors, GPIO | Sensor integration and device telemetry |
-| Cloud & backend | Firebase, Firestore | Authentication, data modelling, connected applications |
-| Tools | Git, GitHub, Arduino IDE | Version control and hardware prototyping |
-| Cloud platforms | AWS, Azure | Foundational learning |
+| Area | Technologies |
+|---|---|
+| Web development | HTML, CSS, JavaScript |
+| Programming | Python, Java, C, C++ |
+| Backend and data | Node.js, Express, Firebase, Firestore |
+| Cloud | AWS and Azure fundamentals; cloud concepts and services |
+| Tools | Git, GitHub, VS Code |
 
-*This is a working skills list, not a claim of equal proficiency across every technology.*
+*These technologies represent my current learning and project exposure, not equal or professional-level proficiency in every tool.*
 
-## Featured projects
+## Projects
 
-### [BhoomiFi — IoT smart irrigation prototype](https://github.com/Baswaraj-Mundkar/Bhoomifi)
+### [DrishtiX — Misinformation awareness web application](https://github.com/Baswaraj-Mundkar/DrishtiX)
 
-An ESP32-based smart irrigation monitoring prototype with a Next.js dashboard and Firebase / Firestore integration.
+A web application that helps users examine suspicious claims and learn media-literacy practices.
 
-- Integrates a capacitive soil-moisture sensor, DHT11 temperature/humidity sensor, and BH1750 light sensor.
-- Uses Firebase Authentication and Firestore to connect the dashboard with farm/device records, telemetry, and commands.
-- Separates demo data from live device data; missing or stale telemetry is not presented as live.
-- Designed around manual commands and automatic moisture-threshold logic.
+- Built around a browser-based interface with a Node.js and Express backend.
+- Includes heuristic claim analysis and optional Google Fact Check Tools API lookup.
+- Provides report submission, a dashboard, and a Leaflet-based map interface.
+- Includes learning resources and quizzes in eight Indian languages.
 
-**My focus:** ESP32 hardware, sensor integration, firmware and device-to-cloud telemetry.
+**Tech:** HTML, CSS, JavaScript, Node.js, Express, SheetJS, Leaflet.
 
-**Prototype status:** The current firmware is an LED-only control-path test. It does not operate a water pump or relay, so this should not be treated as a field-ready irrigation controller.
+### [BhoomiFi — Cloud-connected IoT dashboard](https://github.com/Baswaraj-Mundkar/Bhoomifi)
 
-<sub>Repository is currently private.</sub>
+A smart-irrigation monitoring prototype combining a web dashboard, Firebase/Firestore, and an ESP32 sensor device.
 
-### [DrishtiX — Social media and fake-news awareness](https://github.com/Baswaraj-Mundkar/DrishtiX)
+- Uses Firebase Authentication and Firestore for owner/device identity and telemetry.
+- Connects sensor readings and device state to a Next.js dashboard.
+- Separates simulated demo data from live device telemetry.
+- Demonstrates a device-to-cloud data flow and cloud-backed application architecture.
 
-A web platform designed to help users examine suspicious claims and learn media-literacy practices.
+**Tech:** Next.js, Firebase Authentication, Cloud Firestore, ESP32.
 
-- Includes a heuristic claim-analysis flow and optional Google Fact Check Tools API integration.
-- Provides community reporting and a Leaflet-based map interface.
-- Includes media-literacy learning content and quizzes.
-- Supports eight Indian languages: English, Hindi, Marathi, Tamil, Telugu, Kannada, Gujarati, and Bengali.
-
-**Tech:** HTML, CSS, JavaScript, Node.js, Express, Leaflet, SheetJS.
+*BhoomiFi is a collaborative project. My primary contribution has been the ESP32 hardware, sensor integration, firmware, and device-to-cloud telemetry; the web dashboard and Firebase application work were handled collaboratively. The current firmware is an LED-only prototype and does not operate a pump or relay.*
 
 ## Education
 
@@ -68,12 +65,12 @@ A web platform designed to help users examine suspicious claims and learn media-
 Pimpri Chinchwad College of Engineering & Research (PCCOER), Pune  
 2024–2027
 
-## What I'm working on
+## Current learning focus
 
-- Strengthening Python and core software-development skills.
-- Learning cloud infrastructure and DevOps fundamentals.
-- Improving the reliability and documentation of my ESP32 + Firebase IoT prototype.
-- Building projects that demonstrate practical implementation rather than just listing tools.
+- Improving frontend development with HTML, CSS, and JavaScript.
+- Building stronger programming and backend fundamentals with Python and Node.js.
+- Learning cloud services, deployment, identity, storage, and infrastructure fundamentals.
+- Practising Git-based workflows and writing clear technical documentation.
 
 ## Contact
 
@@ -83,5 +80,5 @@ Pimpri Chinchwad College of Engineering & Research (PCCOER), Pune
 ---
 
 <p align="center">
-  <sub>Build · Test · Learn · Improve</sub>
+  <sub>Web Development · Cloud Computing · Continuous Learning</sub>
 </p>
