@@ -15,7 +15,7 @@
 
 I'm a BCA student specializing in **Cloud Computing** at Pimpri Chinchwad College of Engineering & Research (PCCOER), Pune (2024–2027).
 
-I'm focused on building my skills in **web development and cloud technologies**—from creating web interfaces and backend-connected applications to understanding cloud services, deployment, and infrastructure.
+I'm focused on building my skills in **web development and cloud technologies**—from creating web interfaces and cloud-connected applications to understanding cloud services, deployment, and infrastructure.
 
 - **Based in:** Pune, Maharashtra, India
 - **Primary interests:** Web Development · Cloud Computing · Software Development
@@ -27,9 +27,13 @@ I'm focused on building my skills in **web development and cloud technologies**�
 |---|---|
 | Web development | HTML, CSS, JavaScript |
 | Programming | Python, Java, C, C++ |
-| Backend and data | Node.js, Express, Firebase, Firestore |
+| Backend and data services | Firebase, Cloud Firestore |
 | Cloud | AWS and Azure fundamentals; cloud concepts and services |
 | Tools | Git, GitHub, VS Code |
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,python,java,c,cpp,firebase,aws,azure,git,github,vscode" alt="Technology logos: HTML, CSS, JavaScript, Python, Java, C, C++, Firebase, AWS, Azure, Git, GitHub and VS Code" />
+</p>
 
 *These technologies represent my current learning and project exposure, not equal or professional-level proficiency in every tool.*
 
@@ -39,12 +43,12 @@ I'm focused on building my skills in **web development and cloud technologies**�
 
 A web application that helps users examine suspicious claims and learn media-literacy practices.
 
-- Built around a browser-based interface with a Node.js and Express backend.
+- Provides a browser-based interface for examining claims.
 - Includes heuristic claim analysis and optional Google Fact Check Tools API lookup.
 - Provides report submission, a dashboard, and a Leaflet-based map interface.
 - Includes learning resources and quizzes in eight Indian languages.
 
-**Tech:** HTML, CSS, JavaScript, Node.js, Express, SheetJS, Leaflet.
+**Tech:** HTML, CSS, JavaScript, SheetJS, Leaflet.
 
 ### [BhoomiFi — Cloud-connected IoT dashboard](https://github.com/Baswaraj-Mundkar/Bhoomifi)
 
@@ -68,7 +72,7 @@ Pimpri Chinchwad College of Engineering & Research (PCCOER), Pune
 ## Current learning focus
 
 - Improving frontend development with HTML, CSS, and JavaScript.
-- Building stronger programming and backend fundamentals with Python and Node.js.
+- Strengthening programming fundamentals with Python.
 - Learning cloud services, deployment, identity, storage, and infrastructure fundamentals.
 - Practising Git-based workflows and writing clear technical documentation.
 
