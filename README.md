@@ -2,48 +2,86 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-    <img alt="Baswaraj Mundkar engineering console" src="assets/hero-dark.svg" width="100%">
+    <img alt="Baswaraj Mundkar — Cloud, Software and IoT" src="assets/hero-dark.svg" width="100%">
   </picture>
 </div>
 
-## Profile
+<p align="center">
+  <a href="https://www.linkedin.com/in/baswaraj-mundkar-796ba4405/">LinkedIn</a> ·
+  <a href="https://github.com/Baswaraj-Mundkar">GitHub</a>
+</p>
 
-BCA student at PCCOER, Pune, focused on cloud computing, software development, and IoT. I learn by building systems that combine practical code, infrastructure thinking, and hardware experimentation.
+## About
 
-- Location: Pune, Maharashtra, India
-- Current focus: Cloud • Python • Web • IoT • DevOps
-- Study path: BCA — Cloud Computing, PCCOER, Pune
+I'm a BCA student specializing in Cloud Computing at Pimpri Chinchwad College of Engineering & Research (PCCOER), Pune (2024–2027).
 
-## Core stack
+I work on practical software and IoT projects, with a current focus on Python, web fundamentals, ESP32-based systems, and cloud-connected applications. I prefer learning by building, testing, and documenting working prototypes.
 
-Python • HTML • CSS • JavaScript • C • C++ • Java • SQL / MySQL • AWS • Azure • Firebase • Git • GitHub • Arduino / IoT
+- **Based in:** Pune, Maharashtra, India
+- **Current focus:** Python · Cloud fundamentals · Web development · IoT
+- **Interested in:** Cloud / DevOps engineering, software development, and embedded systems
 
-## Project archive
+## Technical skills
 
-### 01 — DrishtiX
-[GitHub repo](https://github.com/Baswaraj-Mundkar/DrishtiX)
+| Area | Technologies | Current focus |
+|---|---|---|
+| Programming | Python, JavaScript, Java, C, C++ | Python and programming fundamentals |
+| Web | HTML, CSS, JavaScript | Building and improving web interfaces |
+| IoT & embedded | ESP32, Arduino, sensors, GPIO | Sensor integration and device telemetry |
+| Cloud & backend | Firebase, Firestore | Authentication, data modelling, connected applications |
+| Tools | Git, GitHub, Arduino IDE | Version control and hardware prototyping |
+| Cloud platforms | AWS, Azure | Foundational learning |
 
-Verified public repo description: “Social Media & Fake News Awareness Platform.” The repository README describes it as a platform for misinformation awareness, crowdsourced reporting, and verification workflows. Technologies evidenced in the public repo and README: HTML, CSS, JavaScript, Leaflet.
+*This is a working skills list, not a claim of equal proficiency across every technology.*
 
-### 02 — Bhoomifi
-[GitHub repo](https://github.com/Baswaraj-Mundkar/Bhoomifi)
+## Featured projects
 
-Public repo exists, but the repository README is the default Next.js starter template and does not provide a product-specific description. The project is retained as a real public repo reference rather than a claimed product profile.
+### [BhoomiFi — IoT smart irrigation prototype](https://github.com/Baswaraj-Mundkar/Bhoomifi)
 
-Verified repo evidence: TypeScript, Next.js, React
+An ESP32-based smart irrigation monitoring prototype with a Next.js dashboard and Firebase / Firestore integration.
 
-## Connect
+- Integrates a capacitive soil-moisture sensor, DHT11 temperature/humidity sensor, and BH1750 light sensor.
+- Uses Firebase Authentication and Firestore to connect the dashboard with farm/device records, telemetry, and commands.
+- Separates demo data from live device data; missing or stale telemetry is not presented as live.
+- Designed around manual commands and automatic moisture-threshold logic.
 
-<div align="center">
-  <a href="https://github.com/Baswaraj-Mundkar">
-    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=E6EDF3" alt="GitHub profile" width="160" height="42">
-  </a>
-  &nbsp;
-  <a href="https://www.linkedin.com/in/baswaraj-mundkar-796ba4405/">
-    <img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=E6EDF3" alt="LinkedIn profile" width="160" height="42">
-  </a>
-</div>
+**My focus:** ESP32 hardware, sensor integration, firmware and device-to-cloud telemetry.
 
-<div align="center">
-  <sub>BUILD • LEARN • SHIP</sub>
-</div>
+**Prototype status:** The current firmware is an LED-only control-path test. It does not operate a water pump or relay, so this should not be treated as a field-ready irrigation controller.
+
+<sub>Repository is currently private.</sub>
+
+### [DrishtiX — Social media and fake-news awareness](https://github.com/Baswaraj-Mundkar/DrishtiX)
+
+A web platform designed to help users examine suspicious claims and learn media-literacy practices.
+
+- Includes a heuristic claim-analysis flow and optional Google Fact Check Tools API integration.
+- Provides community reporting and a Leaflet-based map interface.
+- Includes media-literacy learning content and quizzes.
+- Supports eight Indian languages: English, Hindi, Marathi, Tamil, Telugu, Kannada, Gujarati, and Bengali.
+
+**Tech:** HTML, CSS, JavaScript, Node.js, Express, Leaflet, SheetJS.
+
+## Education
+
+**Bachelor of Computer Applications (BCA) — Cloud Computing**  
+Pimpri Chinchwad College of Engineering & Research (PCCOER), Pune  
+2024–2027
+
+## What I'm working on
+
+- Strengthening Python and core software-development skills.
+- Learning cloud infrastructure and DevOps fundamentals.
+- Improving the reliability and documentation of my ESP32 + Firebase IoT prototype.
+- Building projects that demonstrate practical implementation rather than just listing tools.
+
+## Contact
+
+- **LinkedIn:** [linkedin.com/in/baswaraj-mundkar](https://www.linkedin.com/in/baswaraj-mundkar-796ba4405/)
+- **GitHub:** [github.com/Baswaraj-Mundkar](https://github.com/Baswaraj-Mundkar)
+
+---
+
+<p align="center">
+  <sub>Build · Test · Learn · Improve</sub>
+</p>
