@@ -35,8 +35,6 @@ I'm focused on building my skills in **web development and cloud technologies**â
   <img src="https://skillicons.dev/icons?i=html,css,js,python,java,c,cpp,firebase,aws,azure,git,github,vscode" alt="Technology logos: HTML, CSS, JavaScript, Python, Java, C, C++, Firebase, AWS, Azure, Git, GitHub and VS Code" />
 </p>
 
-*These technologies represent my current learning and project exposure, not equal or professional-level proficiency in every tool.*
-
 ## Projects
 
 ### [DrishtiX â€” Misinformation awareness web application](https://github.com/Baswaraj-Mundkar/DrishtiX)
